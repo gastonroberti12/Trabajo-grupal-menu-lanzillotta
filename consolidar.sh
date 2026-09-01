@@ -9,7 +9,7 @@ while true; do
         if [ -f "$archivo" ]; then
             cat "$archivo" >> "$SALIDA/$FILENAME.txt"
             echo "$(date '+%d/%m/%Y %H:%M:%S') - Procesado archivo ${archivo##*/}" >> "$HOME/EPNro1/procesado.log"
-            mv "$archivo" "$PROCESADO/" # dice los datos del archivo
+            mv "$archivo" "$PROCESADO/"
         fi
     done
     sleep 5

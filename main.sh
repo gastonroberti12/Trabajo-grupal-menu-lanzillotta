@@ -2,7 +2,7 @@
 
 
 if [ "$1" == "-d" ]; then
-    echo "Borrando en entorno y los procesos en ejecucion"
+    echo "Borrando el entorno y los procesos en ejecucion"
     rm -rf $HOME/EPNro1/
     pkill -f consolidar.sh
 else
@@ -29,11 +29,12 @@ while [ "$OPCION" != "7" ]; do
     
     case $OPCION in
        1) mkdir -p "$HOME/EPNro1/"{entrada,salida,procesado} 
-            cp consolidar.sh "$HOME/EPNro1/"
-            ;;
+          cp consolidar.sh "$HOME/EPNro1/"
+          echo "Entorno creado con éxito";;
 
-       2) bash "$HOME/EPNro1/consolidar.sh" &;;
-       
+       2) bash "$HOME/EPNro1/consolidar.sh" &
+          echo "Corriendo proceso...";;
+
        
        3) if [ -f  "$HOME/EPNro1/salida/$FILENAME.txt" ]; then
               sort -k1,1n "$HOME/EPNro1/salida/$FILENAME.txt"

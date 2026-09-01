@@ -1,2 +1,9 @@
 # Trabajo-grupal-menu-lanzillotta
-Gaston Roberti , Leandro Piccicaco ,Juan Lopez,Lucia Fernandez
+Integrantes:
+
+    -Gaston Roberti
+    -Leandro Piccicacco
+    -Lucía Hernández Tamagno
+    -Juan Francisco Skanata
+
+    

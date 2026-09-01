@@ -1,0 +1,10 @@
+101445 Martin Gomez mgomez@fi.uba.ar 6
+98765 Sofia Ramirez sramirez@fi.uba.ar 9
+110234 Diego Alonso dalonso@fi.uba.ar 3
+95321 Ana Maria Rossi arossi@fi.uba.ar 10
+118877 Tomas Nunez tnunez@fi.uba.ar 7
+104556 Valentina Cruz vcruz@fi.uba.ar 8
+87654 Nicolas Paz npaz@fi.uba.ar 2
+126789 Camila Ortiz cortiz@fi.uba.ar 9
+99887 Bruno Sosa bsosa@fi.uba.ar 6
+113344 Julieta Vega jvega@fi.uba.ar 10
